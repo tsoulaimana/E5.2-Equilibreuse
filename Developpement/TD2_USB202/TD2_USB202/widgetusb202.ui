@@ -149,5 +149,22 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_Quitter</sender>
+   <signal>clicked()</signal>
+   <receiver>WidgetUSB202</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>329</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>2</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

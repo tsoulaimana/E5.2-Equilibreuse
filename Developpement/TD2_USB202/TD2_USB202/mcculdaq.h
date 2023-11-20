@@ -3,12 +3,12 @@
 
 #include <QtGlobal>
 #include "../include/uldaq.h"
-#include "../include/UlDaqDeviceManager.h"
-#include "../include/UlException.h"
-#include "../include/DioDevice.h"
-#include "../include/AoDevice.h"
-#include "../include/AiDevice.h"
-#include "../include/CtrDevice.h"
+#include "../../include/UlDaqDeviceManager.h"
+#include "../../include/UlException.h"
+#include "../../include/DioDevice.h"
+#include "../../include/AoDevice.h"
+#include "../../include/AiDevice.h"
+#include "../../include/CtrDevice.h"
 
 
 #define MAX_DEV_COUNT  100
