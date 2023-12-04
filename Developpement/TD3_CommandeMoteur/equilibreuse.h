@@ -20,6 +20,13 @@ public:
 public slots:
     void onCapot_EtatCapotChange(bool _etat);
 
+private slots:
+    void on_pushButton_Lancer_clicked();
+
+    void on_pushButton_Arreter_clicked();
+
+    void on_dial_ConsigneVitesse_valueChanged(int value);
+
 private:
     Ui::Equilibreuse *ui;
     QLabel labelEtatCapot;

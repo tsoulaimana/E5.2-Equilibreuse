@@ -6,8 +6,8 @@ Capot::Capot(MccUldaq &_laCarte, int _numDio, QObject *parent)
       laCarte(_laCarte)
 {
     laCarte.ulDConfigBit(0,DD_INPUT);
-    connect(&timerCapot, &QTimer::timeout, this, &Capot::onTimerCapot_timout);
     laCarte.ulDBitIn(0,etatCapot);
+    connect(&timerCapot, &QTimer::timeout, this, &Capot::onTimerCapot_timout);
     timerCapot.start(500); // equivalent de tempo_capot
 
 }
